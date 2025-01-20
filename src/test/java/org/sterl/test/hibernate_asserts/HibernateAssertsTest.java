@@ -1,17 +1,16 @@
-package org.sterl.test.hibernate_asserts.sample;
+package org.sterl.test.hibernate_asserts;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.test.context.TestPropertySource;
-import org.sterl.test.hibernate_asserts.HibernateAsserts;
+import org.sterl.test.hibernate_asserts.sample.PersonService;
+import org.sterl.test.hibernate_asserts.sample.SampleApp;
 
 import jakarta.persistence.EntityManager;
 
 @SpringBootTest(classes = {SampleApp.class, HibernateAssertsTest.Config.class})
-@TestPropertySource(locations = "classpath:application-test.yml")
 class HibernateAssertsTest {
     
     @Configuration
