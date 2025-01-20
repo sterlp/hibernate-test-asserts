@@ -1,3 +1,5 @@
+[![Java CI with Maven](https://github.com/sterlp/hibernate-test-asserts/actions/workflows/maven.yml/badge.svg)](https://github.com/sterlp/hibernate-test-asserts/actions/workflows/maven.yml)
+
 # Setup
 
 - [Maven](https://central.sonatype.com/search?q=hibernate-asserts&namespace=org.sterl.test)
