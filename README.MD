@@ -1,5 +1,7 @@
 # Setup
-[Maven](https://central.sonatype.com/search?q=hibernate-asserts&namespace=org.sterl.test)
+
+- [Maven](https://central.sonatype.com/search?q=hibernate-asserts&namespace=org.sterl.test)
+- [Blog](https://sterl.org/2021/08/jpa-model-testing-with-hibernate-statistics/)
 
 ```xml
 <dependency>
