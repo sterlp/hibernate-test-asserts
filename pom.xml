@@ -11,7 +11,7 @@
 
     <groupId>org.sterl.test</groupId>
     <artifactId>hibernate-asserts</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <description>A lib for JPA/Hibernate to verify transactions and uodates/inserts in JUnit.</description>
     <inceptionYear>2025</inceptionYear>
 
