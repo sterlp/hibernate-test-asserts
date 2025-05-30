@@ -7,8 +7,10 @@ import org.hibernate.SessionFactory;
 import org.hibernate.stat.Statistics;
 
 import jakarta.persistence.EntityManager;
+import lombok.Getter;
 
 public class HibernateAsserts {
+    @Getter
     private final Statistics statistics;
 
     public HibernateAsserts(EntityManager entityManager) {
