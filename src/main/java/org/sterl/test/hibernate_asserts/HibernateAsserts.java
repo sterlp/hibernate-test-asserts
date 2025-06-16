@@ -48,6 +48,15 @@ public class HibernateAsserts {
         }
         return this;
     }
+    
+    public HibernateAsserts assertDeletedCount(int expected) {
+        long value = statistics.getEntityDeleteCount();
+        if (value != expected) {
+            logSummary();
+            fail("Expected " + expected + " EntityDeleteCount, but found " + value);
+        }
+        return this;
+    }
 
     public void reset() {
         statistics.clear();
